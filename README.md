@@ -9,8 +9,8 @@ This project is built using modern web technologies with a separate frontend and
 ## 📁 Project Structure
 Hiring-portal/
 │
-├── front-end/ → React (Vite) frontend
-├── back-end/ → Node.js + Express backend
+├── Front-End/ → React (Vite) frontend
+├── Back-End/ → Node.js + Express backend
 └── README.md
 
 ## IMPORTANT 
@@ -21,8 +21,8 @@ Hiring-portal/
 ## 🚀 Tech Stack
 
 ### Frontend
-- React (Vite)
-- HTML, CSS, JavaScript
+- React (Vite) + Javascript
+- TailwindCSS
 
 ### Backend
 - Node.js
@@ -43,12 +43,14 @@ Hiring-portal/
 git clone https://github.com/kk786/Hiring-portal.git
 cd Hiring-portal
 
-1. For Front-End
+#1. For Front-End
+
 cd Front-End
 npm install
 npm run dev
 
 2. For Back-End
+
 cd Back-End
 npm install
 npm run dev
