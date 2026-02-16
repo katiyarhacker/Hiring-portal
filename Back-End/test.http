@@ -16,3 +16,7 @@ Content-Type: application/json
   "email": "test10@gmail.com",
   "password": "654321"
 }
+
+### Profile (Protected)
+GET http://localhost:5000/api/auth/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OTM2NGRhMWFhNzdkZGIwYjgxN2JmZiIsImlhdCI6MTc3MTI3OTY2NiwiZXhwIjoxNzcxODg0NDY2fQ.RLjrqJ3B2Np3Epg35TNYrciPSzMK7X-GY3DCRkttFYk
