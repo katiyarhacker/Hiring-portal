@@ -1,10 +1,9 @@
 import express from "express";
+import { registerUser } from "../controllers/authController.js";
 
 const router = express.Router();
 
-// Temporary test route
-router.get("/test", (req, res) => {
-    res.json({ message: "Auth Route Working" });
-});
+// Register route
+router.post("/register", registerUser);
 
 export default router;
