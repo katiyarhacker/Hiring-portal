@@ -1,18 +1,20 @@
-import React from 'react';
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoginPage from "./components/LoginPage.jsx";
- import Forget_pass from './components/Forget_pass.jsx';
-
-
-
+import Forget_pass from './components/Forget_pass.jsx';
+import Employer from "./components/Employer.jsx";
 
 const App = () => {
     return (
 
-        <>
-        <Forget_pass/>
-        <LoginPage />
+       <BrowserRouter>
+      <Routes>
         
-        </>
+        <Route path="/Employer" element={<Employer />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/forget-pass" element={<Forget_pass />} />
+      </Routes>
+    </BrowserRouter>
 
     );
 };
